@@ -6,7 +6,7 @@ class User extends React.Component {
   render() {
     return (
       <div className="users">
-        <img className="icon" src="images/user.png" />
+        <div className="icon"></div>
         <div className="right">
           <div className="top">
             <h3>Player {this.props.id}</h3>
